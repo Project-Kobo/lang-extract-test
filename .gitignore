@@ -1,0 +1,59 @@
+# Environment and secrets
+.env
+.env.local
+.env.production
+.env.*.local
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LangExtract outputs
+*.jsonl
+*.html
+test_output/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Original langextract repository (will be cloned)
+langextract/
