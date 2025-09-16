@@ -46,9 +46,23 @@ env/
 Thumbs.db
 
 # LangExtract outputs
+outputs/**/*.jsonl
+outputs/**/*.html
+outputs/**/*.json
+outputs/**/*.txt
+outputs/**/*.csv
+outputs/**/*.log
+!outputs/README.md
+!outputs/.gitkeep
+
+# Legacy output files (for backward compatibility)
 *.jsonl
 *.html
 test_output/
+extraction_results.*
+medical_extractions.*
+visualization_results.*
+interactive_visualization.*
 
 # Temporary files
 *.tmp
